@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@layer base{
+    body{
+        @apply font-[Open-Sans];
+    }
+
+    span{
+        @apply px-5;
+        @apply cursor-pointer;
+    }
+
+    li{
+        @apply cursor-pointer;
+    }
+
+  
+
+    .ham-menu{
+        cursor: pointer;
+    }
+}
